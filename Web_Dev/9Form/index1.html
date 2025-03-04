@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Job Application</h3>
+    <form action="">
+        <label for="name1">Name:</label>
+        <input type="text" name="name" id="name1" placeholder="Name">
+        <br/>
+        <br/>
+        <label for="email1">Email:</label>
+        <input type="email" name="email-A" id="email1" placeholder="Email">
+        <br/>
+        <br/>
+        <label for="phone1">Phone:</label>
+        <input type="tel" name="phone" id="phone1" placeholder="Phone">
+        <br/>
+        <br/>
+        <!-- UploadFiles -->
+        <label for="resume1">Resume</label>
+        <input type="file" name="resume" id="resume1">
+        <br/>
+        <br/>
+        <!-- CountNumber -->
+        <label for="experience1">Experience(Years):</label>
+        <input type="number" name="experience" id="experience1" min="0" max="50">
+        <br/>
+        <br/>
+        <!-- BroaderGrope -->
+        <fieldset>
+            <legend>Skill</legend>
+            <!-- Checkbox -->
+            <input type="checkbox" name="checkbox-A" id="checkbox1">
+            <br/>
+            <label for="checkbox1">HTML</label>
+            <br/>
+            <input type="checkbox" name="checkbox-B" id="checkbox2">
+            <br/>
+            <label for="checkbox2">CSS</label>
+            <br/>
+            <input type="checkbox" name="checkbox-C" id="checkbox3">
+            <br/>
+            <label for="checkbox3">JavaScript</label>
+        </fieldset>
+        <br/>
+        <label for="highestEducation1">Highest Education</label>
+        <br/>
+        <br/>
+        <!-- DropDownMenu -->
+        <select name="highestEducation" id="highestEducation1">
+            <option value="highSchool">High School</option>
+            <option value="associate'sDegree">Associate's Degree</option>
+            <option value="bachelor'sDegree">Bachelor's Degree</option>
+            <option value="master'sDegree">Master's Degree</option>
+            <option value="phd">PhD</option>
+        </select>
+        <br/>
+        <!-- BroaderGrope -->
+        <fieldset>
+            <legend>Availability</legend>
+            <!-- RadioButtons -->
+            <input type="radio" name="radio-A" id="radio1">
+            <br/>
+            <label for="radio2">Full-time</label>
+            <br/>
+            <input type="radio" name="radio-A" id="radio2">
+            <br/>
+            <label for="radio3">Part-time</label>
+        </fieldset>
+        <br/>
+        <br/>
+        <label for="comment1">Additional Comment:</label>
+        <br/>
+        <br/>
+        <!-- MultipleLineInput -->
+        <textarea name="review" id="comment1" cols="100" rows="10" placeholder="Give Any Comment"></textarea>
+        <br/>
+        <br/>
+        <!-- Button -->
+        <input type="submit" value="Submit Application">
+
+    </form>
+</body>
+</html>

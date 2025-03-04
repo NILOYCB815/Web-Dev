@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Complex Form</h1>
+    <form action="">
+        <!-- BroaderGrope -->
+         <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name1">Name:</label>
+            <input type="text" name="name" id="name1" placeholder="Name">
+            <label for="email1">Email:</label>
+            <input type="text" name="email" id="email1" placeholder="Email">
+            <label for="phone1">Phone:</label>
+            <input type="tel" name="phone" id="phone1" placeholder="Phone">
+            <label for="dob1">Date of Birth:</label>
+            <input type="date" name="dob" id="dob1">
+            <span>Gender:</span>
+            <!-- <p>Gender</p> -->
+            <!-- RadioButtons -->
+            <input type="radio" name="radio-A" id="radio1">
+            <label for="radio1">Male</label>
+            <input type="radio" name="radio-A" id="radio2">
+            <label for="radio2">Female</label>
+            <label for="country">Country:</label>
+            <select name="DropDownMenu" id="country">
+                <option value="bd">Bangladesh</option>
+                <option value="us">United States</option>
+                <option value="jp">Japan</option>
+            </select>
+         </fieldset>
+         <!-- BroaderGrope -->
+         <fieldset>
+            <legend>Address:</legend>
+            <label for="address1">Address Street:</label>
+            <input type="text" name="address" id="address1" placeholder="Street">
+            <label for="city1">City:</label>
+            <input type="text" name="city" id="city1" placeholder="city">
+            <label for="state1">State:</label>
+            <input type="text" name="state" id="state1" placeholder="state">
+            <label for="zip code1">Zip Code:</label>
+            <input type="text" name="zip code" id="zip code1" placeholder="zip code">
+         </fieldset>
+         <!-- BroaderGrope -->
+         <fieldset>
+            <legend>Other Information</legend>
+            <label for="comment1">Comment:</label>
+            <br/>
+            <textarea name="comment" id="comment1"cols="75"rows="10" placeholder="extra information"></textarea>
+            <br/>
+            <label for="checkbox1">I agree to the terms of service</label>
+            <input type="checkbox" name="checkbox-A" id="checkbox1">
+         </fieldset>
+         <br/>
+         <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
